@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "quick_lamp:block/quick_lamp_off"
+  }
+}

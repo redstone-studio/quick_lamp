@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "quick_lamp",
+  "version": "${version}",
+  "name": "Quick Lamp",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/quick_lamp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.redstonestudio.quick_lamp.client.QuickLampClient"
+    ],
+    "main": [
+      "org.redstonestudio.quick_lamp.QuickLamp"
+    ]
+  },
+  "mixins": [
+    "quick_lamp.mixins.json",
+    {
+      "config": "quick_lamp.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

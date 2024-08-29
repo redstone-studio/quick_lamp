@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "quick_lamp:block/quick_lamp_on" },
+    "lit=false": { "model": "quick_lamp:block/quick_lamp_off" }
+  }
+}
